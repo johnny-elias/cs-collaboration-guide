@@ -570,7 +570,7 @@ const CollaborationDashboard = () => {
               rel="noopener noreferrer"
               className="text-blue-600 underline hover:text-blue-800"
             >
-              Review Brown’s Academic Code
+              Review Brown's Academic Code
             </a>
           </li>
         </ul>

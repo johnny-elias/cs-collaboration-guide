@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cs-collaboration-guide/static/css/main.4ce1bf4c.css",
+    "main.js": "/cs-collaboration-guide/static/js/main.8162d58d.js",
+    "index.html": "/cs-collaboration-guide/index.html",
+    "main.4ce1bf4c.css.map": "/cs-collaboration-guide/static/css/main.4ce1bf4c.css.map",
+    "main.8162d58d.js.map": "/cs-collaboration-guide/static/js/main.8162d58d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce1bf4c.css",
+    "static/js/main.8162d58d.js"
+  ]
+}
