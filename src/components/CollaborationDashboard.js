@@ -316,7 +316,7 @@ const courses = [
   },
   {
     id: "0150",
-    name: "Strict Intro Course Example",
+    name: "Introduction to Object-Oriented Programming and Computer Science",
     category: "strict",
     description:
       "Very structured policy with limited collaboration, designated AI assistant (ATA), and strong emphasis on individual work.",
@@ -324,18 +324,6 @@ const courses = [
     link: "https://docs.google.com/document/d/10rbbd0Y6s1JUzPe8VmoWcL_Mz26XczX-i7p2LUFa9vc/edit?tab=t.0#heading=h.o0nwon5qvcc7",
     details:
       "Students must follow the official code or risk academic code sanctions.",
-  },
-
-  {
-    id: "00170",
-    name: "Strict Intro with Minimal Collaboration",
-    category: "strict",
-    description:
-      "Allows conceptual discussion but requires individual implementation. Distinguishes allowable vs. prohibited sharing.",
-    features: ["Conceptual Only", "No Shared Code", "Strict Boundaries"],
-    link: "https://drive.google.com/file/d/1TCavmFLVdDpWfUuacB_MvxNnyxViRO44/view",
-    details:
-      "Brown's Academic Code followed. Minimal external resource usage is permitted.",
   },
 
   {
@@ -489,16 +477,6 @@ const courses = [
   },
 
   {
-    id: "0150",
-    name: "Introduction to Object-Oriented Programming and Computer Science",
-    category: "strict",
-    description:
-      "Has a Google Doc. Encourages conceptual discussion, no direct code sharing. Must produce your own solutions.",
-    features: ["Conceptual Discussion", "No Code Sharing"],
-    link: "https://docs.google.com/document/d/10rbbd0Y6s1JUzPe8VmoWcL_Mz26XczX-i7p2LUFa9vc/edit?tab=t.0",
-    details: "Violations follow Brown's academic policies.",
-  },
-  {
     id: "0170",
     name: "Computer Science: An Integrated Introduction",
     category: "strict",
@@ -585,6 +563,16 @@ const CollaborationDashboard = () => {
           <li>Document all collaboration</li>
           <li>Never share or copy code directly without permission</li>
           <li>Be prepared to explain any work you submit</li>
+          <li>
+            <a
+              href="https://college.brown.edu/design-your-education/academic-policies/academic-code"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline hover:text-blue-800"
+            >
+              Review Brown’s Academic Code
+            </a>
+          </li>
         </ul>
       </div>
 
